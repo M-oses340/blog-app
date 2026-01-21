@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const SignupPage(),
+      home: const SignUpPage(),
     );
   }
 }
