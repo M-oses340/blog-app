@@ -9,6 +9,12 @@ class SignupPage extends StatefulWidget {
 class _State extends State<SignupPage> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold();
+    return  Scaffold(
+      body: Column(
+        children: [
+          Text('Sign Up')
+        ],
+      ),
+    );
   }
 }
